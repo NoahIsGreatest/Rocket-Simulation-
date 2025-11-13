@@ -62,7 +62,7 @@ class Rocket:
                 if int(event) == randomNumber:
                     if int(event) == 1:
                         self.Fuel -= random.randint(1, 50)
-
+                        print(random_Events[event])
                     elif int(event) == 2:
                         self.temp += 25
                         # Entering optimize mode and redefining fuel method
